@@ -3,6 +3,7 @@
 ## Working:
 
 * Palindrome check
+* FizzBuzz
 
 ## TBA:
 
@@ -10,4 +11,3 @@
 * Boyer-Moore
 * Rabin-Karp
 * Levenshtein distance
-* Fizzbuzz
