@@ -1,9 +1,11 @@
 # Sorting algorithms
 
-## TBA:
+## Working:
 
 * Bubble sort
 * Insertion sort
+## TBA:
+
 * Merge sort
 * Heapsort
 * Quicksort
