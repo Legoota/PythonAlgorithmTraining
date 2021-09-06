@@ -7,6 +7,3 @@ def insertionsort(array):
             j = j-1
         array[j] = x
     return array
-
-if __name__ == "__main__":
-    print("result: ",insertionsort([4,2,1,7,9,5,5,3,8,6]))
