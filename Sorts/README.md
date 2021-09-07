@@ -4,7 +4,7 @@
 
 * [Bubble sort](#bubble-sort)
 * [Insertion sort](#insertion-sort)
-* [Merge sort]()
+* [Merge sort](#merge-sort)
 
 ## Bubble sort
 #### Presentation
