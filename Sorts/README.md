@@ -43,10 +43,16 @@ Comb sort is a modified bubble sort that compares two numbers that are not neces
 * Best case: *O(n·log(n))* 
 * Worst case: *O(n<sup>2</sup>)*
 
+## Shell sort
+#### Presentation
+Shell sort is an optimized insertion sort algorithm. The difference lies in the possibility of swapping elements that are far in the array, by using "gaps". The gap can be calculated from various methods, and depends on the array's values interval. In our implementation, we decided to use a gap the size of half the array's size, then reducing this gap by half each iteration.
+#### Complexity
+* Best case: *O(n·log(n))* 
+* Worst case: *O(n<sup>2</sup>)*
+
 ## TBA:
 
 * Heapsort
 * Quicksort
-* Shellsort
 * Radix sort
 * Timsort

@@ -24,6 +24,3 @@ def cocktailshakersort(array):
         start = start+1
         
     return array
-
-if __name__ == "__main__":
-    print("result:",cocktailshakersort([4,2,1,7,9,5,5,3,8,6]))
