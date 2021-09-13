@@ -7,6 +7,7 @@
 * [Merge sort](#merge-sort)
 * [Coctail sort](#cocktail-sort)
 * [Comb sort](#comb-sort)
+* [Shell sort](#shell-sort)
 
 ## Bubble sort
 #### Presentation
