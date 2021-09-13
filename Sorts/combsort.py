@@ -1,9 +1,6 @@
-import math
-
 def combsort(array):
-    length = len(array)
+    gap = length = len(array)
     shrink = 1.3
-    gap = length
     out = list(array)
     sorted = False
     while not sorted:

@@ -5,6 +5,8 @@
 * [Bubble sort](#bubble-sort)
 * [Insertion sort](#insertion-sort)
 * [Merge sort](#merge-sort)
+* [Coctail sort](#cocktail-sort)
+* [Comb sort](#comb-sort)
 
 ## Bubble sort
 #### Presentation
@@ -27,11 +29,24 @@ Merge sort is a "divide and conquer algorithm", which means that it recursively 
 * Best case: *O(n·log(n))* 
 * Worst case: *O(n·log(n))*
 
+## Cocktail sort
+#### Presentation
+Comb sort is an extension of the bubble sort, as it is operating in two directions. It can provide faster sorting in case of small numbers presence at the end of the array, since they will be moved sooner than with the standard bubble sort. However, it provides only small performance improvements.
+#### Complexity
+* Best case: *O(n)* 
+* Worst case: *O(n<sup>2</sup>)*
+
+## Comb sort
+#### Presentation
+Comb sort is a modified bubble sort that compares two numbers that are not necessarily next to each other. In the usual bubble sort, the gap between the two compared numbers is 1. In the comb sort, the idea is to use a gap slightly bigger than 1 (in our implementation, this gap is initialized to the size of the array, then each time we shrink it with a factor of 1.3). The goal of this method is to move small numbers at the end of the array faster than with the standard bubble sort.
+#### Complexity
+* Best case: *O(n·log(n))* 
+* Worst case: *O(n<sup>2</sup>)*
+
 ## TBA:
 
 * Heapsort
 * Quicksort
 * Shellsort
-* Cocktail shaker sort
-* Comb sort
 * Radix sort
+* Timsort
