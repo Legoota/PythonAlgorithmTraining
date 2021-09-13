@@ -32,6 +32,6 @@ Merge sort is a "divide and conquer algorithm", which means that it recursively 
 * Heapsort
 * Quicksort
 * Shellsort
-* Exchange sort
+* Cocktail shaker sort
 * Comb sort
 * Radix sort
