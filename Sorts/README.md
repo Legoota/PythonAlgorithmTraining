@@ -51,9 +51,15 @@ Shell sort is an optimized insertion sort algorithm. The difference lies in the 
 * Best case: *O(n·log(n))* 
 * Worst case: *O(n<sup>2</sup>)*
 
+## Quick sort
+#### Presentation
+To be added
+#### Complexity
+* Best case: *O(n·log(n))* 
+* Worst case: *O(n<sup>2</sup>)*
+
 ## TBA:
 
 * Heapsort
-* Quicksort
 * Radix sort
 * Timsort
