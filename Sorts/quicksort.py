@@ -26,6 +26,3 @@ def partition(array, start, end):
     array[end], array[pivot_index] = array[pivot_index], array[end]
 
     return end
-
-if __name__ == "__main__":
-    print("result:",quicksort([4,2,1,7,9,5,5,3,8,6]))

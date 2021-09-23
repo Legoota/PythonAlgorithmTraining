@@ -53,7 +53,7 @@ Shell sort is an optimized insertion sort algorithm. The difference lies in the 
 
 ## Quick sort
 #### Presentation
-To be added
+Quick sort is a "divide and conquer algorithm", and can be faster than merge sort. It works by dividing the array into halves repeatedly until it is composed of only one number, then it defines a "pivot" for partitionning purposes. The left partition contains values that are smaller than the pivot, and the right partition contains values that are greater. Then, it replaces the sorted values into the larger array.
 #### Complexity
 * Best case: *O(n·log(n))* 
 * Worst case: *O(n<sup>2</sup>)*
